@@ -16,3 +16,14 @@ In a Security Operations Center (SOC), one of the first signs of an attack is a 
 ```powershell
 # Run PowerShell as Administrator
 .\Detect-Bruteforce.ps1
+
+Output Example:
+
+text
+[!] POTENTIAL BRUTEFORCE DETECTED!
+The following IPs have >= 10 failed logons in the last hour:
+
+  - 192.168.1.105 : 23 failures
+    Target accounts: Administrator, john.doe, backup
+
+Recommendation: Investigate these IPs and consider blocking at the firewall.
