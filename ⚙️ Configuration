@@ -1,0 +1,5 @@
+You can adjust two variables at the top of the script:
+
+$HoursBack – How many hours of history to examine (default: 1)
+
+$Threshold – Minimum failed attempts to trigger an alert (default: 10)
